@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <meta charset="utf-8">       
+        <title>Страница ни о чём...</title>
+        <style>
+            nav>ol {
+                list-style: none;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-around;
+            }
+            
+            nav>ol>li {
+                padding: 10px 20px;
+                font-size: 24px;
+            }
+            nav>ol>li:hover {
+                box-shadow: 1px 1px 20px rgb(100, 100, 100);
+                color: rgb(100, 100, 100);
+                border-radius: 50px;
+            }
+            nav>ol>img {
+                width: 20vh;
+                transition: all 5s 0.1s ease;
+            }
+            nav>ol>img:hover {
+                transform: rotate(360deg);
+            }
+            main {
+                text-align: center;
+                font-size: 35px;
+            }
+            .container {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-around;
+            }
+            .card {
+                width: calc(100%/3-40px);
+                border: 1px solid red;
+                margin: 1vh 1vw;
+            }
+            .card>img {
+                width: 80%;
+                margin: 0 auto;
+            }
+        </style>
+   </head>
+   <body>
+       <header>
+           <nav>
+               <ol>
+                   <img src="https://s.tcdn.co/f0f/884/f0f8844e-34b6-3c16-816a-1113189999dc/6.png">
+                   
+                   <li>Привет</li>
+                   <li>Продаем</li>
+                   <li>Покупаем</li>
+                   <li>О нас</li>
+               </ol>
+           </nav>
+       </header>
+       <main>
+            <h1>Это главная страница сайта ни о чём...</h1>
+            <div class="container">
+                <div class="card">
+                   <h3>Заголовок</h3>
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/71EhXXbGs3L._AC_SX569_.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="card">
+                   <h3>Заголовок</h3>
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/71EhXXbGs3L._AC_SX569_.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="card">
+                   <h3>Заголовок</h3>
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/71EhXXbGs3L._AC_SX569_.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                
+            </div>
+       </main>
+       <footer>
+           
+       </footer>
+        
+ 
+   </body>
+    
+</html>
